@@ -89,3 +89,22 @@ Eliminare un post: tiktokstudio/content → ⋯ → Elimina → Elimina (recuper
 ## Note
 - Il video 1 è già online ("REGOLA 50/30/20"). Voce standard: Speko/Cartesia Giancarlo (il video 1 pubblicato con Leo è stato eliminato e rifatto con Giancarlo).
 - Mai citare nomi reali dell'utente. Profilo: @SlowFox_Original, bio "Soldi e mentalità, un passo alla volta 🦊 Nuovo video ogni giorno".
+
+## 5. Strategia e apprendimento (il profilo lo gestisci TU, decidi tutto)
+L'utente ti ha dato la gestione completa del canale: obiettivo = più visualizzazioni, retention e follower. Ogni esecuzione, PRIMA di scrivere l'episodio:
+1. **Misura.** Metricool `getAnalyticsDataByMetrics` (brandId 8109026, network TikTok, connector posts) sugli ultimi 14-30 giorni con le metriche:
+   TKPO03 url, TKPO02 data/ora, TKPO05 descrizione, TKPO06 durata, TKPO07 views, TKPO08 likes, TKPO09 commenti, TKPO10 condivisioni, TKPO11 reach,
+   TKPO13 % video guardato per intero, TKPO15 tempo medio guardato, TKPO16 views da For You, TKPO18 da hashtag, TKPO21 da ricerca (vedi `getAnalyticsAvailableMetrics`).
+   Opzionale: tiktokstudio/content nel browser integrato per sanity check.
+2. **Impara.** Aggiorna `learnings.md` (tabella episodio → data/ora → hook → tema → durata → views/likes/commenti/condivisioni/% completamento) e
+   scrivi 3-5 righe di conclusioni: quali temi, hook, durate, scene e orari rendono di più. Segnali forti = % completamento, tempo medio guardato, condivisioni e salvataggi, poi views.
+   Con pochi dati (primi giorni) non trarre conclusioni forzate: varia apposta formati e hook e annota l'esperimento.
+3. **Decidi** e applica: argomento (puoi cambiare l'ordine dell'elenco o inventare nuovi temi coerenti col canale se qualcosa funziona di più), tipo di hook
+   (domanda, numero shock, errore comune, "smetti di…", confronto), lunghezza (30-60 s: se la completion cala, accorcia), caption, hashtag (mix di 1-2 ampi + 3-4 di nicchia, max 6),
+   frequenza (1 video al giorno di default; se i dati mostrano un vantaggio puoi cambiare il numero e l'orario dell'attività con update_trigger, senza prompt se possibile).
+4. **Orario.** `getBestTimeToPostByNetwork` (TikTok, giorno di oggi, Europe/Rome) e incrocialo con le ore dei tuoi video migliori. Dati iniziali Metricool (nov 2026, profilo generico):
+   nei giorni feriali i picchi sono alle 10:00, 12:00 e 18:00; il weekend 10:00, 12:00 e 18:00-19:00. Default: programma il post tra le 18:00 e le 18:30; prova altri slot
+   (12:00, 10:00, 20:00) a rotazione per qualche giorno e confronta i risultati nel learnings.md. Usa lo slot migliore mostrato dai dati reali del canale appena sono sufficienti.
+5. **Contenuto.** Mantieni accuratezza (solo regole e calcoli verificabili, niente promesse di guadagno, niente consulenza finanziaria personalizzata), niente contenuti ingannevoli, etichetta IA sempre attiva.
+   Primi 2 secondi = hook forte; una scena diversa per frase; sottotitoli sempre; chiudi con una domanda per i commenti. Rispondere ai commenti non è possibile via Metricool: se vedi commenti rilevanti, segnalalo nel riepilogo.
+6. **Riepilogo.** Chiudi con una riga per l'utente: episodio, orario, cosa hai imparato/cambiato (es. "ep3 programmato 18:10, hook a domanda, tema X perché Y"). Notifica push solo per problemi o per un risultato davvero notevole.
