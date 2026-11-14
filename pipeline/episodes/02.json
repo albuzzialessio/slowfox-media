@@ -1,0 +1,205 @@
+{
+ "id": 2,
+ "tag": "INTERESSE COMPOSTO",
+ "theme": "blue",
+ "sentences": [
+  "Con duecento euro al mese puoi arrivare a una cifra che non ti aspetti.",
+  "Ma c'è una condizione, e quasi nessuno la rispetta.",
+  "Si chiama interesse composto: i guadagni generano altri guadagni.",
+  "Facciamo un esempio ipotetico. Metti da parte duecento euro al mese.",
+  [
+   "Immagina un rendimento medio del 7% all'anno. Attenzione: non è garantito, è solo un'ipotesi.",
+   "Immagina un rendimento medio del sette per cento all'anno. Attenzione: non è garantito, è solo un'ipotesi."
+  ],
+  [
+   "Dopo 10 anni hai versato 24 mila euro, e ne hai circa 34 mila.",
+   "Dopo dieci anni hai versato ventiquattro mila euro, e ne hai circa trentaquattro mila."
+  ],
+  [
+   "Dopo 20 anni, 48 mila versati, e circa 104 mila.",
+   "Dopo venti anni, quarantotto mila versati, e circa centoquattro mila."
+  ],
+  [
+   "Dopo 30 anni, 72 mila versati, e oltre 240 mila.",
+   "Dopo trent'anni, settantadue mila versati, e oltre duecentoquaranta mila."
+  ],
+  "Vedi la differenza? Dal ventesimo al trentesimo anno la cifra più che raddoppia. Non è magia, è il tempo.",
+  "Per questo la cosa più importante non è quanto metti, ma quando inizi.",
+  "Questo è solo un esempio educativo, non un consiglio finanziario. Informati sempre prima di investire.",
+  "Seguimi per altri video così, e salva questo per non dimenticarlo."
+ ],
+ "caption": "Esempio ipotetico di interesse composto (7% annuo non garantito). Contenuto educativo, non consulenza.",
+ "post": "Esempio ipotetico di interesse composto (7% annuo non garantito). Contenuto educativo, non consulenza. #soldi #educazionefinanziaria #risparmio #motivazione #imparacontiktok",
+ "scenes": [
+  [
+   "bignum",
+   {
+    "to": 200,
+    "suf": " €",
+    "label": "AL MESE",
+    "sub": "può diventare una cifra che non ti aspetti",
+    "icon": "piggy"
+   }
+  ],
+  [
+   "question",
+   {
+    "lines": [
+     "C'È UNA CONDIZIONE",
+     "CHE NESSUNO RISPETTA"
+    ]
+   }
+  ],
+  [
+   "growth",
+   {
+    "la": "Versato",
+    "lb": "Con interesse composto"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "piggy",
+    "coins": true,
+    "lines": [
+     "200 € AL MESE",
+     "ESEMPIO IPOTETICO"
+    ]
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 7,
+    "suf": "%",
+    "label": "RENDIMENTO ANNUO IPOTETICO",
+    "sub": "non garantito, è solo un'ipotesi",
+    "icon": "warn",
+    "warn": 1
+   }
+  ],
+  [
+   "pairbars",
+   {
+    "groups": [
+     [
+      10,
+      24,
+      34
+     ],
+     [
+      20,
+      48,
+      104
+     ],
+     [
+      30,
+      72,
+      244
+     ]
+    ],
+    "reveal": 1,
+    "la": "Versato",
+    "lb": "Valore stimato"
+   }
+  ],
+  [
+   "pairbars",
+   {
+    "groups": [
+     [
+      10,
+      24,
+      34
+     ],
+     [
+      20,
+      48,
+      104
+     ],
+     [
+      30,
+      72,
+      244
+     ]
+    ],
+    "reveal": 2,
+    "la": "Versato",
+    "lb": "Valore stimato"
+   }
+  ],
+  [
+   "pairbars",
+   {
+    "groups": [
+     [
+      10,
+      24,
+      34
+     ],
+     [
+      20,
+      48,
+      104
+     ],
+     [
+      30,
+      72,
+      244
+     ]
+    ],
+    "reveal": 3,
+    "la": "Versato",
+    "lb": "Valore stimato"
+   }
+  ],
+  [
+   "bignum",
+   {
+    "txt": "×2,3",
+    "label": "DAL 20° AL 30° ANNO",
+    "sub": "da 104k a oltre 240k",
+    "icon": "chartup",
+    "size": 270
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "clock",
+     "title": "INIZI TARDI",
+     "value": "104k",
+     "sub": "dopo 20 anni",
+     "good": false
+    },
+    "r": {
+     "icon": "chartup",
+     "title": "INIZI ORA",
+     "value": "244k",
+     "sub": "dopo 30 anni",
+     "good": true
+    },
+    "foot": "STESSI 200 € AL MESE"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "info",
+    "lines": [
+     "SOLO UN ESEMPIO",
+     "NON È CONSULENZA FINANZIARIA"
+    ]
+   }
+  ],
+  [
+   "cta",
+   {
+    "title": "Salvalo per dopo",
+    "sub": "Segui per altri consigli"
+   }
+  ]
+ ]
+}

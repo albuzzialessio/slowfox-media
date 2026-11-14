@@ -1,0 +1,229 @@
+{
+ "id": 3,
+ "tag": "FONDO DI EMERGENZA",
+ "theme": "green",
+ "sentences": [
+  "Se domani perdessi il lavoro, per quanti mesi riusciresti a vivere?",
+  "Se la risposta è meno di tre, questo video ti serve.",
+  "Prima di investire, prima di comprare qualunque cosa, serve un fondo di emergenza.",
+  "Cos'è? Una somma messa da parte solo per gli imprevisti. Il lavoro che salta, la macchina che si rompe, una spesa medica.",
+  "Quanto? Da tre a sei mesi delle tue spese essenziali. Non del tuo stipendio, delle tue spese.",
+  [
+   "Un esempio: se per vivere ti servono 1200 euro al mese, il tuo obiettivo è tra 3600 e 7200 euro.",
+   "Un esempio: se per vivere ti servono milleduecento euro al mese, il tuo obiettivo è tra tremilaseicento e settemiladuecento euro."
+  ],
+  "Dove tenerlo? Su un conto separato, facile da raggiungere, ma non quello che usi ogni giorno.",
+  "Come costruirlo? Parti piccolo. Anche cinquanta euro a settimana, in automatico.",
+  "Il primo traguardo è uno stipendio intero. Poi due. Poi tre mesi.",
+  "Non serve a farti guadagnare, serve a non farti andare nel panico.",
+  "Quando ce l'hai, puoi fare scelte migliori, anche sul lavoro.",
+  "Condividilo con qualcuno che ne ha bisogno, e seguimi per il prossimo passo: come iniziare a investire."
+ ],
+ "caption": "Il fondo di emergenza: da 3 a 6 mesi di spese essenziali, prima di qualsiasi investimento.",
+ "post": "Il fondo di emergenza: da 3 a 6 mesi di spese essenziali, prima di qualsiasi investimento. #soldi #educazionefinanziaria #risparmio #motivazione #imparacontiktok",
+ "scenes": [
+  [
+   "question",
+   {
+    "lines": [
+     "SE PERDESSI IL LAVORO",
+     "QUANTI MESI RESISTI?"
+    ]
+   }
+  ],
+  [
+   "calendar",
+   {
+    "marks": [
+     [
+      2,
+      [
+       255,
+       90,
+       100
+      ]
+     ]
+    ],
+    "label": "MENO DI 3 MESI?",
+    "sub": "allora questo video ti serve"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "shield",
+    "lines": [
+     "FONDO DI EMERGENZA",
+     "PRIMA DI TUTTO IL RESTO"
+    ]
+   }
+  ],
+  [
+   "icons",
+   {
+    "items": [
+     [
+      "briefcase",
+      "Lavoro"
+     ],
+     [
+      "car",
+      "Auto"
+     ],
+     [
+      "medical",
+      "Salute"
+     ]
+    ],
+    "title": "PER GLI IMPREVISTI",
+    "sub": "lavoro che salta, auto che si rompe, spese mediche"
+   }
+  ],
+  [
+   "calendar",
+   {
+    "marks": [
+     [
+      6,
+      [
+       255,
+       205,
+       70
+      ]
+     ],
+     [
+      3,
+      [
+       90,
+       235,
+       150
+      ]
+     ]
+    ],
+    "label": "DA 3 A 6 MESI",
+    "sub": "di spese essenziali, non di stipendio"
+   }
+  ],
+  [
+   "bars",
+   {
+    "items": [
+     [
+      "× 3 mesi",
+      3600,
+      2
+     ],
+     [
+      "× 6 mesi",
+      7200,
+      3
+     ]
+    ],
+    "suf": " €",
+    "title": "SE SPENDI 1.200 € AL MESE",
+    "max": 7400
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "wallet",
+     "title": "CONTO DI OGNI GIORNO",
+     "value": "NO",
+     "sub": "non mischiarlo",
+     "good": false
+    },
+    "r": {
+     "icon": "shield",
+     "title": "CONTO SEPARATO",
+     "value": "SÌ",
+     "sub": "facile da raggiungere",
+     "good": true
+    }
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "piggy",
+    "coins": true,
+    "lines": [
+     "50 € A SETTIMANA",
+     "IN AUTOMATICO"
+    ]
+   }
+  ],
+  [
+   "bars",
+   {
+    "items": [
+     [
+      "1 stipendio",
+      1,
+      0
+     ],
+     [
+      "2 stipendi",
+      2,
+      1
+     ],
+     [
+      "3 mesi",
+      3,
+      2
+     ]
+    ],
+    "title": "I TRAGUARDI",
+    "sub": "un passo alla volta",
+    "max": 3.4
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "chartup",
+     "title": "NON SERVE PER",
+     "value": "GUADAGNARE",
+     "sub": "non è un investimento",
+     "good": false
+    },
+    "r": {
+     "icon": "shield",
+     "title": "SERVE PER",
+     "value": "STARE SERENO",
+     "sub": "niente panico",
+     "good": true
+    }
+   }
+  ],
+  [
+   "list",
+   {
+    "items": [
+     [
+      "check",
+      "Scelte più lucide"
+     ],
+     [
+      "check",
+      "Più libertà sul lavoro"
+     ],
+     [
+      "check",
+      "Meno ansia"
+     ]
+    ],
+    "title": "QUANDO CE L'HAI"
+   }
+  ],
+  [
+   "cta",
+   {
+    "title": "Mandalo a chi ne ha bisogno",
+    "sub": "Prossimo video: come iniziare a investire"
+   }
+  ]
+ ]
+}
