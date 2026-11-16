@@ -1,0 +1,211 @@
+{
+ "id": 4,
+ "tag": "ABBONAMENTI",
+ "theme": "red",
+ "sentences": [
+  "Stai pagando ogni mese qualcosa che non usi più.",
+  "Gli abbonamenti sono il costo più silenzioso che esista.",
+  "Dieci euro qui, dodici euro là: nessuno li sente.",
+  [
+   "Ma facciamo i conti: cinque abbonamenti da 10 euro fanno 50 euro al mese.",
+   "Ma facciamo i conti: cinque abbonamenti da dieci euro fanno cinquanta euro al mese."
+  ],
+  [
+   "In un anno sono 600 euro.",
+   "In un anno sono seicento euro."
+  ],
+  [
+   "In dieci anni, 6000 euro, per cose che spesso nemmeno guardi.",
+   "In dieci anni, seimila euro, per cose che spesso nemmeno guardi."
+  ],
+  "Primo passo: apri l'estratto conto e cerca i pagamenti ricorrenti degli ultimi tre mesi.",
+  "Secondo: per ognuno chiediti, l'ho usato questo mese?",
+  "Se la risposta è no, disdici oggi: quasi sempre bastano due minuti.",
+  "Terzo: tieni solo ciò che ti dà valore reale, e ricontrolla ogni tre mesi.",
+  "I soldi risparmiati? Mandali in automatico sul tuo fondo di emergenza.",
+  "Quanti abbonamenti hai scoperto di pagare? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "Abbonamenti dimenticati: 5 da 10 euro sono 600 euro all'anno.",
+ "post": "5 abbonamenti da 10 € = 600 € all'anno. Quanti ne hai scoperto di pagare? Scrivilo 👇 #soldi #educazionefinanziaria #risparmio #abbonamenti #finanzapersonale #imparacontiktok",
+ "scenes": [
+  [
+   "question",
+   {
+    "lines": [
+     "PAGHI ABBONAMENTI",
+     "CHE NON USI?"
+    ]
+   }
+  ],
+  [
+   "icons",
+   {
+    "items": [
+     [
+      "gamepad",
+      "Giochi"
+     ],
+     [
+      "star",
+      "Streaming"
+     ],
+     [
+      "bolt",
+      "App"
+     ]
+    ],
+    "title": "GLI ABBONAMENTI",
+    "sub": "il costo più silenzioso che esista"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "wallet",
+    "lines": [
+     "10 € QUI, 12 € LÀ",
+     "NESSUNO LI SENTE"
+    ]
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 50,
+    "suf": " €",
+    "label": "AL MESE",
+    "sub": "5 abbonamenti da 10 €",
+    "icon": "cart",
+    "warn": 1
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "wallet",
+     "title": "AL MESE",
+     "value": "50 €",
+     "sub": "sembra poco",
+     "good": true
+    },
+    "r": {
+     "icon": "calendar",
+     "title": "ALL'ANNO",
+     "value": "600 €",
+     "sub": "50 € × 12 mesi",
+     "good": false
+    }
+   }
+  ],
+  [
+   "bars",
+   {
+    "items": [
+     [
+      "1 anno",
+      600,
+      2
+     ],
+     [
+      "5 anni",
+      3000,
+      3
+     ],
+     [
+      "10 anni",
+      6000,
+      0
+     ]
+    ],
+    "suf": " €",
+    "title": "QUANTO SPENDI",
+    "sub": "stesso costo, ogni anno",
+    "max": 6200
+   }
+  ],
+  [
+   "list",
+   {
+    "items": [
+     [
+      "check",
+      "Apri l'estratto conto"
+     ],
+     [
+      "check",
+      "Cerca i ricorrenti"
+     ],
+     [
+      "check",
+      "Ultimi 3 mesi"
+     ]
+    ],
+    "title": "PRIMO PASSO"
+   }
+  ],
+  [
+   "question",
+   {
+    "lines": [
+     "L'HAI USATO",
+     "QUESTO MESE?"
+    ]
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "cross",
+     "title": "NON LO USI",
+     "value": "DISDICI",
+     "sub": "bastano 2 minuti",
+     "good": false
+    },
+    "r": {
+     "icon": "check",
+     "title": "LO USI",
+     "value": "TIENI",
+     "sub": "ti dà valore",
+     "good": true
+    }
+   }
+  ],
+  [
+   "calendar",
+   {
+    "marks": [
+     [
+      3,
+      [
+       90,
+       235,
+       150
+      ]
+     ]
+    ],
+    "label": "OGNI 3 MESI",
+    "sub": "ricontrolla la lista"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "piggy",
+    "coins": true,
+    "lines": [
+     "SOLDI RISPARMIATI",
+     "AL FONDO EMERGENZA"
+    ]
+   }
+  ],
+  [
+   "cta",
+   {
+    "title": "Scrivi quanti ne hai",
+    "sub": "Salva il video e segui"
+   }
+  ]
+ ]
+}
