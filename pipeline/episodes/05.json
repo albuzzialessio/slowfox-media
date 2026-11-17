@@ -1,0 +1,33 @@
+{
+ "id": 5,
+ "tag": "ACQUISTI",
+ "theme": "purple",
+ "sentences": [
+  "Stai comprando cose che non ti servono, e non te ne accorgi.",
+  "Gli acquisti d'impulso sono il modo più veloce per svuotare lo stipendio.",
+  ["Facciamo i conti: 50 euro a settimana di acquisti d'impulso.", "Facciamo i conti: cinquanta euro a settimana di acquisti d'impulso."],
+  ["Sono circa 200 euro al mese.", "Sono circa duecento euro al mese."],
+  ["E in un anno fanno 2600 euro.", "E in un anno fanno duemilaseicento euro."],
+  "Ecco il trucco: la regola delle ventiquattro ore.",
+  "Vedi qualcosa che vuoi? Mettila nel carrello e aspetta un giorno.",
+  "Il giorno dopo chiediti: lo comprerei anche senza lo sconto o la fretta?",
+  "Se la voglia è passata, hai appena risparmiato. Se resta, compralo senza sensi di colpa.",
+  "Per gli acquisti grandi, aspetta trenta giorni.",
+  "Quale acquisto d'impulso rimpiangi di più? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "Acquisti d'impulso: 50 euro a settimana sono 2600 euro all'anno.",
+ "post": "50 € a settimana di acquisti d'impulso = 2.600 € all'anno. Qual è stato il tuo più inutile? Scrivilo 👇 #soldi #educazionefinanziaria #risparmio #finanzapersonale #acquisti #imparacontiktok",
+ "scenes": [
+  ["question", {"lines": ["COMPRI SENZA", "PENSARCI?"]}],
+  ["icons", {"items": [["bag", "Shopping"], ["cart", "Online"], ["bolt", "Offerte"]], "title": "ACQUISTI D'IMPULSO", "sub": "svuotano lo stipendio"}],
+  ["bignum", {"to": 50, "suf": " €", "label": "A SETTIMANA", "sub": "acquisti d'impulso", "icon": "bag", "warn": 1}],
+  ["split", {"l": {"icon": "calendar", "title": "A SETTIMANA", "value": "50 €", "sub": "sembra poco", "good": true}, "r": {"icon": "wallet", "title": "AL MESE", "value": "200 €", "sub": "50 € × 4 settimane", "good": false}}],
+  ["bars", {"items": [["4 sett.", 200, 2], ["26 sett.", 1300, 3], ["1 anno", 2600, 0]], "suf": " €", "title": "QUANTO SPENDI", "sub": "50 € a settimana", "max": 2700}],
+  ["hero", {"icon": "clock", "lines": ["REGOLA DELLE", "24 ORE"]}],
+  ["list", {"items": [["check", "Mettilo nel carrello"], ["check", "Aspetta un giorno"], ["check", "Poi decidi"]], "title": "COSA FAI"}],
+  ["question", {"lines": ["LO COMPRERESTI", "SENZA FRETTA?"]}],
+  ["split", {"l": {"icon": "check", "title": "PASSATA", "value": "RISPARMI", "sub": "soldi tuoi", "good": true}, "r": {"icon": "heart", "title": "RESTA", "value": "COMPRA", "sub": "senza sensi di colpa", "good": true}}],
+  ["calendar", {"marks": [[30, [90, 235, 150]]], "label": "30 GIORNI", "sub": "per gli acquisti grandi"}],
+  ["cta", {"title": "Quale rimpiangi?", "sub": "Salva il video e segui"}]
+ ]
+}
