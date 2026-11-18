@@ -1,0 +1,193 @@
+{
+ "id": 6,
+ "tag": "PAGA TE STESSO",
+ "theme": "gold",
+ "sentences": [
+  "Smetti di pagare tutti prima di te stesso.",
+  "Affitto, bollette, abbonamenti: ogni mese paghi tutti. E tu?",
+  "La regola è semplice: appena arriva lo stipendio, metti da parte una quota. Poi spendi il resto.",
+  [
+   "Esempio: 1500 € di stipendio e il 10% messo da parte.",
+   "Esempio: millecinquecento euro di stipendio e il dieci per cento messo da parte."
+  ],
+  [
+   "Sono 150 € al mese.",
+   "Sono centocinquanta euro al mese."
+  ],
+  [
+   "In un anno fanno 1800 €, senza accorgertene.",
+   "In un anno fanno milleottocento euro, senza accorgertene."
+  ],
+  "Il trucco è renderlo automatico: un bonifico programmato il giorno dello stipendio.",
+  "Se aspetti di risparmiare quello che avanza, non avanza mai niente.",
+  "Parti anche da una cifra piccola: conta l'abitudine, non l'importo.",
+  "Poi aumenta la quota ogni volta che il tuo stipendio cresce.",
+  "Quanto metti da parte tu ogni mese? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "Paga te stesso per primo: 10% di 1500 € = 1800 € all'anno.",
+ "post": "Paga te stesso per primo: il 10% di 1.500 € sono 1.800 € all'anno. Quanto metti da parte tu? Scrivilo 👇 #soldi #educazionefinanziaria #risparmio #finanzapersonale #pagatestesso #imparacontiktok",
+ "scenes": [
+  [
+   "question",
+   {
+    "lines": [
+     "PAGHI TUTTI",
+     "TRANNE TE?"
+    ]
+   }
+  ],
+  [
+   "icons",
+   {
+    "items": [
+     [
+      "house",
+      "Affitto"
+     ],
+     [
+      "bolt",
+      "Bollette"
+     ],
+     [
+      "wallet",
+      "Abbonamenti"
+     ]
+    ],
+    "title": "OGNI MESE PAGHI",
+    "sub": "e a te cosa resta?"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "piggy",
+    "lines": [
+     "PRIMA TE,",
+     "POI IL RESTO"
+    ]
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "briefcase",
+     "title": "STIPENDIO",
+     "value": "1500 €",
+     "sub": "ogni mese",
+     "good": true
+    },
+    "r": {
+     "icon": "piggy",
+     "title": "DA PARTE",
+     "value": "10%",
+     "sub": "appena arriva",
+     "good": true
+    }
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 150,
+    "suf": " €",
+    "label": "AL MESE",
+    "sub": "messi da parte",
+    "icon": "piggy",
+    "warn": 0
+   }
+  ],
+  [
+   "bars",
+   {
+    "items": [
+     [
+      "3 mesi",
+      450,
+      2
+     ],
+     [
+      "6 mesi",
+      900,
+      3
+     ],
+     [
+      "1 anno",
+      1800,
+      0
+     ]
+    ],
+    "suf": " €",
+    "title": "QUANTO METTI DA PARTE",
+    "sub": "150 € al mese",
+    "max": 1900
+   }
+  ],
+  [
+   "list",
+   {
+    "items": [
+     [
+      "check",
+      "Bonifico automatico"
+     ],
+     [
+      "check",
+      "Il giorno dello stipendio"
+     ],
+     [
+      "check",
+      "Zero fatica"
+     ]
+    ],
+    "title": "IL TRUCCO"
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "cross",
+     "title": "RISPARMI",
+     "value": "CIÒ CHE AVANZA",
+     "sub": "non avanza mai",
+     "good": false
+    },
+    "r": {
+     "icon": "check",
+     "title": "PAGHI TE",
+     "value": "PER PRIMO",
+     "sub": "poi spendi",
+     "good": true
+    }
+   }
+  ],
+  [
+   "words",
+   {
+    "icon": "star",
+    "lines": [
+     "ANCHE POCO",
+     "VA BENE"
+    ]
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "chartup",
+    "lines": [
+     "AUMENTA LA QUOTA",
+     "CON LO STIPENDIO"
+    ]
+   }
+  ],
+  [
+   "cta",
+   {
+    "title": "Quanto metti da parte?",
+    "sub": "Salva il video e segui"
+   }
+  ]
+ ]
+}
