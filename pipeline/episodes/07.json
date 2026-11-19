@@ -1,0 +1,160 @@
+{
+ "id": 7,
+ "tag": "INFLAZIONE",
+ "theme": "blue",
+ "sentences": [
+  "Hai i soldi fermi sul conto? Si stanno svuotando.",
+  "Si chiama inflazione: i prezzi salgono e con la stessa cifra compri sempre meno.",
+  [
+   "Esempio ipotetico: 10000 € fermi per 10 anni, con inflazione al 3% annuo.",
+   "Esempio ipotetico: diecimila euro fermi per dieci anni, con inflazione al tre per cento annuo."
+  ],
+  [
+   "Sul conto ci sono sempre 10000 €.",
+   "Sul conto ci sono sempre diecimila euro."
+  ],
+  [
+   "Ma il loro potere d'acquisto scende a circa 7400 €.",
+   "Ma il loro potere d'acquisto scende a circa settemilaquattrocento euro."
+  ],
+  [
+   "Hai perso circa 2600 € senza spendere niente.",
+   "Hai perso circa duemilaseicento euro senza spendere niente."
+  ],
+  "Questo non vuol dire buttarsi a caso negli investimenti.",
+  "Sul conto tieni solo il fondo di emergenza e le spese dei prossimi mesi.",
+  "Per il resto, informati su come proteggere i risparmi. Non è consulenza finanziaria.",
+  "Quanti soldi tieni fermi sul conto? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "10.000 € fermi per 10 anni con inflazione al 3% valgono circa 7.400 €.",
+ "post": "10.000 € fermi sul conto per 10 anni, con inflazione al 3%, valgono circa 7.400 € (esempio ipotetico). Quanti ne tieni fermi tu? Scrivilo 👇 #soldi #educazionefinanziaria #inflazione #risparmio #finanzapersonale #imparacontiktok",
+ "scenes": [
+  [
+   "question",
+   {
+    "lines": [
+     "SOLDI FERMI",
+     "SUL CONTO?"
+    ]
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "cart",
+    "lines": [
+     "PREZZI SU,",
+     "POTERE GIÙ"
+    ]
+   }
+  ],
+  [
+   "icons",
+   {
+    "items": [
+     [
+      "wallet",
+      "10000 €"
+     ],
+     [
+      "clock",
+      "10 anni"
+     ],
+     [
+      "chartup",
+      "Inflazione 3%"
+     ]
+    ],
+    "title": "ESEMPIO IPOTETICO",
+    "sub": "soldi fermi sul conto"
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 10000,
+    "suf": " €",
+    "label": "SUL CONTO",
+    "sub": "sempre uguali",
+    "icon": "wallet",
+    "warn": 0
+   }
+  ],
+  [
+   "bars",
+   {
+    "items": [
+     [
+      "Sul conto",
+      10000,
+      3
+     ],
+     [
+      "Valore reale",
+      7400,
+      0
+     ]
+    ],
+    "suf": " €",
+    "title": "DOPO 10 ANNI",
+    "sub": "inflazione 3% annua",
+    "max": 10000
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 2600,
+    "pre": "-",
+    "suf": " €",
+    "label": "DI VALORE",
+    "sub": "senza spendere niente",
+    "icon": "warn",
+    "warn": 1
+   }
+  ],
+  [
+   "words",
+   {
+    "icon": "cross",
+    "lines": [
+     "NON INVESTIRE",
+     "A CASO"
+    ]
+   }
+  ],
+  [
+   "list",
+   {
+    "items": [
+     [
+      "check",
+      "Fondo di emergenza"
+     ],
+     [
+      "check",
+      "Spese dei prossimi mesi"
+     ]
+    ],
+    "title": "SUL CONTO SOLO"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "shield",
+    "lines": [
+     "PROTEGGI I",
+     "TUOI RISPARMI"
+    ]
+   }
+  ],
+  [
+   "cta",
+   {
+    "title": "Quanto tieni fermo?",
+    "sub": "Salva il video e segui"
+   }
+  ]
+ ]
+}
