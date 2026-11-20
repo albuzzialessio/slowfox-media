@@ -1,0 +1,160 @@
+{
+ "id": 8,
+ "tag": "REGOLA DEL 72",
+ "theme": "green",
+ "sentences": [
+  "Con una sola divisione scopri quando raddoppiano i tuoi soldi.",
+  [
+   "Si chiama regola del 72.",
+   "Si chiama regola del settantadue."
+  ],
+  [
+   "Prendi 72 e dividilo per il rendimento annuo.",
+   "Prendi settantadue e dividilo per il rendimento annuo."
+  ],
+  "Il risultato sono gli anni che servono per raddoppiare.",
+  [
+   "Esempio ipotetico: rendimento del 6% annuo. 72 diviso 6 fa 12.",
+   "Esempio ipotetico: rendimento del sei per cento annuo. Settantadue diviso sei fa dodici."
+  ],
+  [
+   "Quindi servono circa 12 anni per raddoppiare.",
+   "Quindi servono circa dodici anni per raddoppiare."
+  ],
+  [
+   "Con il 3% invece servono circa 24 anni.",
+   "Con il tre per cento invece servono circa ventiquattro anni."
+  ],
+  "Più basso è il rendimento, più devi aspettare.",
+  "È solo una stima, non una promessa. Non è consulenza finanziaria.",
+  "Prova il calcolo e scrivimi nei commenti quanti anni ti escono. Salva il video."
+ ],
+ "caption": "Dividi 72 per il rendimento: ottieni gli anni per raddoppiare i soldi.",
+ "post": "Dividi 72 per il rendimento e scopri in quanti anni raddoppiano i tuoi soldi: al 6% circa 12 anni (esempio ipotetico). Quanti anni ti escono? Scrivilo 👇 #soldi #educazionefinanziaria #regoladel72 #investire #finanzapersonale #imparacontiktok",
+ "scenes": [
+  [
+   "question",
+   {
+    "lines": [
+     "QUANDO RADDOPPIANO",
+     "I TUOI SOLDI?"
+    ]
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "star",
+    "lines": [
+     "REGOLA",
+     "DEL 72"
+    ]
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 72,
+    "label": "DIVISO IL RENDIMENTO",
+    "sub": "regola del 72",
+    "icon": "info",
+    "warn": 0
+   }
+  ],
+  [
+   "words",
+   {
+    "icon": "clock",
+    "lines": [
+     "= ANNI PER",
+     "RADDOPPIARE"
+    ]
+   }
+  ],
+  [
+   "icons",
+   {
+    "items": [
+     [
+      "chartup",
+      "6% annuo"
+     ],
+     [
+      "calendar",
+      "72 ÷ 6"
+     ]
+    ],
+    "title": "ESEMPIO IPOTETICO",
+    "sub": "rendimento ipotetico"
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 12,
+    "suf": " anni",
+    "label": "PER RADDOPPIARE",
+    "sub": "al 6% annuo",
+    "icon": "clock",
+    "warn": 0
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "chartup",
+     "title": "AL 6%",
+     "value": "12 anni",
+     "sub": "per raddoppiare",
+     "good": true
+    },
+    "r": {
+     "icon": "clock",
+     "title": "AL 3%",
+     "value": "24 anni",
+     "sub": "per raddoppiare",
+     "good": false
+    },
+    "foot": "STESSA REGOLA, TEMPI DIVERSI"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "clock",
+    "lines": [
+     "MENO RENDE,",
+     "PIÙ ASPETTI"
+    ]
+   }
+  ],
+  [
+   "list",
+   {
+    "items": [
+     [
+      "check",
+      "È una stima"
+     ],
+     [
+      "cross",
+      "Non è una promessa"
+     ],
+     [
+      "cross",
+      "Non è consulenza"
+     ]
+    ],
+    "title": "ATTENZIONE"
+   }
+  ],
+  [
+   "cta",
+   {
+    "title": "Quanti anni ti escono?",
+    "sub": "Salva il video e segui"
+   }
+  ]
+ ]
+}
