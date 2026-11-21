@@ -1,0 +1,153 @@
+{
+ "id": 9,
+ "tag": "COSTO IN ORE",
+ "theme": "gold",
+ "sentences": [
+  [
+   "Quella cosa da 120 euro ti costa un giorno e mezzo di lavoro.",
+   "Quella cosa da centoventi euro ti costa un giorno e mezzo di lavoro."
+  ],
+  "Si chiama costo in ore: il prezzo diviso quanto guadagni all'ora.",
+  [
+   "Esempio ipotetico: guadagni 10 € netti all'ora.",
+   "Esempio ipotetico: guadagni dieci euro netti all'ora."
+  ],
+  [
+   "Un paio di scarpe da 120 € sono 12 ore di lavoro.",
+   "Un paio di scarpe da centoventi euro sono dodici ore di lavoro."
+  ],
+  "Cioè un giorno e mezzo, per qualcosa che forse userai poco.",
+  [
+   "Un caffè al bar da 1,50 € ogni giorno? Circa 55 ore di lavoro all'anno.",
+   "Un caffè al bar da un euro e cinquanta ogni giorno? Circa cinquantacinque ore di lavoro all'anno."
+  ],
+  "Non devi smettere di spendere, ma farlo con testa.",
+  "Prima di comprare chiediti: vale queste ore della mia vita?",
+  "Per saperlo, dividi il tuo stipendio netto per le ore lavorate.",
+  "Quante ore ti costa il tuo ultimo acquisto? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "Quella cosa da 120 € ti costa 12 ore di lavoro (esempio a 10 € l'ora).",
+ "post": "Quella cosa da 120 € ti costa 12 ore di lavoro (esempio a 10 € l'ora). Quante ore ti costa il tuo ultimo acquisto? Scrivilo 👇 #soldi #educazionefinanziaria #costoinore #risparmio #finanzapersonale #imparacontiktok",
+ "scenes": [
+  [
+   "question",
+   {
+    "lines": [
+     "QUANTE ORE DI LAVORO",
+     "COSTA DAVVERO?"
+    ]
+   }
+  ],
+  [
+   "words",
+   {
+    "icon": "info",
+    "lines": [
+     "PREZZO ÷",
+     "PAGA ORARIA"
+    ]
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 10,
+    "suf": " €/ora",
+    "label": "NETTI ALL'ORA",
+    "sub": "esempio ipotetico",
+    "icon": "wallet",
+    "warn": 0
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "bag",
+     "title": "SCARPE",
+     "value": "120 €",
+     "sub": "prezzo",
+     "good": true
+    },
+    "r": {
+     "icon": "clock",
+     "title": "IN ORE",
+     "value": "12 ore",
+     "sub": "di lavoro",
+     "good": false
+    },
+    "foot": "A 10 € ALL'ORA"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "calendar",
+    "lines": [
+     "UN GIORNO",
+     "E MEZZO"
+    ]
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 55,
+    "suf": " ore",
+    "label": "DI LAVORO ALL'ANNO",
+    "sub": "1,50 € di caffè al giorno",
+    "icon": "coin",
+    "warn": 1
+   }
+  ],
+  [
+   "list",
+   {
+    "items": [
+     [
+      "cross",
+      "Non è non spendere"
+     ],
+     [
+      "check",
+      "È spendere con testa"
+     ]
+    ],
+    "title": "ATTENZIONE"
+   }
+  ],
+  [
+   "question",
+   {
+    "lines": [
+     "VALE QUELLE ORE",
+     "DELLA MIA VITA?"
+    ]
+   }
+  ],
+  [
+   "icons",
+   {
+    "items": [
+     [
+      "wallet",
+      "Stipendio netto"
+     ],
+     [
+      "clock",
+      "÷ ore lavorate"
+     ]
+    ],
+    "title": "IL TUO COSTO ORARIO",
+    "sub": "fai il calcolo"
+   }
+  ],
+  [
+   "cta",
+   {
+    "title": "Quante ore ti costa?",
+    "sub": "Salva il video e segui"
+   }
+  ]
+ ]
+}
