@@ -1,0 +1,174 @@
+{
+ "id": 10,
+ "tag": "LIFESTYLE CREEP",
+ "theme": "red",
+ "sentences": [
+  "Ti hanno dato un aumento? E i soldi spariscono lo stesso.",
+  "Si chiama lifestyle creep: più guadagni, più spendi.",
+  [
+   "Esempio ipotetico: l'aumento è di 200 € al mese.",
+   "Esempio ipotetico: l'aumento è di duecento euro al mese."
+  ],
+  "Esci di più, ordini di più, ti abitui a una vita più cara.",
+  [
+   "Risultato: 200 € in più al mese, 0 € in più da parte.",
+   "Risultato: duecento euro in più al mese, zero euro in più da parte."
+  ],
+  [
+   "Se ne metti da parte solo la metà, sono 100 € al mese.",
+   "Se ne metti da parte solo la metà, sono cento euro al mese."
+  ],
+  [
+   "Cioè 1.200 € all'anno, senza sentire la differenza.",
+   "Cioè milleduecento euro all'anno, senza sentire la differenza."
+  ],
+  "Non devi vivere male: devi decidere prima dove vanno i soldi.",
+  "Regola semplice: di ogni aumento, metà la tieni da parte.",
+  "Lo hai già notato nella tua vita? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "Aumento di stipendio e soldi che spariscono lo stesso? Si chiama lifestyle creep.",
+ "post": "Aumento di 200 € al mese e non ti resta niente? Si chiama lifestyle creep (esempio ipotetico). L'hai notato anche tu? Scrivilo 👇 #soldi #educazionefinanziaria #lifestylecreep #risparmio #finanzapersonale #imparacontiktok",
+ "scenes": [
+  [
+   "question",
+   {
+    "lines": [
+     "HAI AVUTO UN AUMENTO?",
+     "E SPARISCE LO STESSO?"
+    ]
+   }
+  ],
+  [
+   "words",
+   {
+    "icon": "chartup",
+    "lines": [
+     "LIFESTYLE",
+     "CREEP"
+    ]
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 200,
+    "suf": " €/mese",
+    "label": "DI AUMENTO",
+    "sub": "esempio ipotetico",
+    "icon": "wallet",
+    "warn": 0
+   }
+  ],
+  [
+   "icons",
+   {
+    "items": [
+     [
+      "gamepad",
+      "Esci di più"
+     ],
+     [
+      "cart",
+      "Ordini di più"
+     ],
+     [
+      "bag",
+      "Compri di più"
+     ]
+    ],
+    "title": "COSA SUCCEDE",
+    "sub": "senza accorgertene"
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "wallet",
+     "title": "ENTRATE",
+     "value": "+200 €",
+     "sub": "al mese",
+     "good": true
+    },
+    "r": {
+     "icon": "piggy",
+     "title": "DA PARTE",
+     "value": "+0 €",
+     "sub": "al mese",
+     "good": false
+    },
+    "foot": "SENZA UN PIANO"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "piggy",
+    "coins": true,
+    "lines": [
+     "METÀ DELL'AUMENTO",
+     "= 100 € DA PARTE"
+    ]
+   }
+  ],
+  [
+   "bars",
+   {
+    "items": [
+     [
+      "3 mesi",
+      300,
+      2
+     ],
+     [
+      "6 mesi",
+      600,
+      3
+     ],
+     [
+      "1 anno",
+      1200,
+      0
+     ]
+    ],
+    "suf": " €",
+    "title": "100 € IN PIÙ AL MESE",
+    "sub": "messi da parte",
+    "max": 1250
+   }
+  ],
+  [
+   "list",
+   {
+    "items": [
+     [
+      "cross",
+      "Non è vivere male"
+     ],
+     [
+      "check",
+      "È decidere prima"
+     ]
+    ],
+    "title": "ATTENZIONE"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "chartup",
+    "lines": [
+     "OGNI AUMENTO:",
+     "METÀ PER TE"
+    ]
+   }
+  ],
+  [
+   "cta",
+   {
+    "title": "Lo hai notato?",
+    "sub": "Salva il video e segui"
+   }
+  ]
+ ]
+}
