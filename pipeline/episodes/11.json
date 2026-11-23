@@ -1,0 +1,150 @@
+{
+ "id": 11,
+ "tag": "SPESA INTELLIGENTE",
+ "theme": "green",
+ "sentences": [
+  "Al supermercato perdi soldi senza accorgertene.",
+  [
+   "Esempio ipotetico: spendi 10 € in più a ogni spesa.",
+   "Esempio ipotetico: spendi dieci euro in più a ogni spesa."
+  ],
+  [
+   "Se fai la spesa 3 volte a settimana, sono 30 € a settimana.",
+   "Se fai la spesa tre volte a settimana, sono trenta euro a settimana."
+  ],
+  [
+   "Cioè 1.560 € all'anno.",
+   "Cioè millecinquecentosessanta euro all'anno."
+  ],
+  "Trucco uno: fai la lista e compra solo quella.",
+  "Trucco due: mai a stomaco vuoto, perché compri di più.",
+  "Trucco tre: confronta il prezzo al chilo, non quello sulla confezione.",
+  "Il prodotto col marchio del supermercato spesso costa meno.",
+  "Non devi mangiare peggio: devi spendere con testa.",
+  "Quale trucco usi tu? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "10 € in più a ogni spesa = 1.560 € all'anno (esempio ipotetico).",
+ "post": "10 € in più a ogni spesa, 3 volte a settimana = 1.560 € all'anno (esempio ipotetico). Quale trucco usi tu al supermercato? Scrivilo 👇 #soldi #educazionefinanziaria #spesaintelligente #risparmio #finanzapersonale #imparacontiktok",
+ "scenes": [
+  [
+   "question",
+   {
+    "lines": [
+     "QUANTO PERDI",
+     "AL SUPERMERCATO?"
+    ]
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 10,
+    "suf": " € in più",
+    "label": "A OGNI SPESA",
+    "sub": "esempio ipotetico",
+    "icon": "cart",
+    "warn": 1
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "cart",
+     "title": "A SETTIMANA",
+     "value": "30 €",
+     "sub": "3 spese da 10 € in più",
+     "good": false
+    },
+    "r": {
+     "icon": "calendar",
+     "title": "ALL'ANNO",
+     "value": "1.560 €",
+     "sub": "senza accorgertene",
+     "good": false
+    },
+    "foot": "ESEMPIO IPOTETICO"
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 1560,
+    "suf": " €/anno",
+    "label": "SE NON FAI ATTENZIONE",
+    "sub": "30 € × 52 settimane",
+    "icon": "wallet",
+    "warn": 1
+   }
+  ],
+  [
+   "list",
+   {
+    "items": [
+     [
+      "check",
+      "Fai la lista"
+     ],
+     [
+      "cross",
+      "Compri a caso"
+     ]
+    ],
+    "title": "TRUCCO 1"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "clock",
+    "lines": [
+     "MAI A STOMACO",
+     "VUOTO"
+    ]
+   }
+  ],
+  [
+   "words",
+   {
+    "icon": "info",
+    "lines": [
+     "PREZZO",
+     "AL CHILO"
+    ]
+   }
+  ],
+  [
+   "list",
+   {
+    "items": [
+     [
+      "check",
+      "Marchio del super"
+     ],
+     [
+      "cross",
+      "Solo marchi famosi"
+     ]
+    ],
+    "title": "SPESSO COSTA MENO"
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "shield",
+    "lines": [
+     "SPENDERE",
+     "CON TESTA"
+    ]
+   }
+  ],
+  [
+   "cta",
+   {
+    "title": "Quale trucco usi?",
+    "sub": "Salva il video e segui"
+   }
+  ]
+ ]
+}
