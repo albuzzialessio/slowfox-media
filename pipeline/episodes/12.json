@@ -1,0 +1,151 @@
+{
+ "id": 12,
+ "tag": "DEBITI",
+ "theme": "purple",
+ "sentences": [
+  "Un debito ti costa più di quanto pensi, ogni mese.",
+  [
+   "Esempio ipotetico: 2.000 € di debito con interessi al 18% annuo.",
+   "Esempio ipotetico: duemila euro di debito con interessi al diciotto per cento annuo."
+  ],
+  [
+   "Il 18% di 2.000 € sono 360 € all'anno.",
+   "Il diciotto per cento di duemila euro sono trecentosessanta euro all'anno."
+  ],
+  [
+   "Cioè 30 € al mese solo di interessi.",
+   "Cioè trenta euro al mese solo di interessi."
+  ],
+  "Pagare solo la rata minima non basta: il debito scende lentissimo.",
+  "Regola uno: paga prima il debito con il tasso più alto.",
+  "Regola due: ogni euro in più, mettilo sul debito.",
+  [
+   "Estinguere un debito al 18% è come guadagnare il 18%.",
+   "Estinguere un debito al diciotto per cento è come guadagnare il diciotto per cento."
+  ],
+  "Quale debito chiudi per primo? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "Un debito da 2.000 € al 18% costa 30 € al mese di interessi (esempio ipotetico).",
+ "post": "Un debito da 2.000 € al 18% costa 30 € al mese di interessi (esempio ipotetico). Quale chiudi per primo? Scrivilo 👇 #soldi #educazionefinanziaria #debiti #risparmio #finanzapersonale #imparacontiktok",
+ "scenes": [
+  [
+   "question",
+   {
+    "lines": [
+     "QUANTO TI COSTA",
+     "UN DEBITO?"
+    ]
+   }
+  ],
+  [
+   "split",
+   {
+    "l": {
+     "icon": "wallet",
+     "title": "DEBITO",
+     "value": "2.000 €",
+     "sub": "esempio ipotetico",
+     "good": false
+    },
+    "r": {
+     "icon": "chartup",
+     "title": "INTERESSI",
+     "value": "18%",
+     "sub": "all'anno",
+     "good": false
+    },
+    "foot": "ESEMPIO IPOTETICO"
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 360,
+    "suf": " €/anno",
+    "label": "SOLO DI INTERESSI",
+    "sub": "18% di 2.000 €",
+    "icon": "warn",
+    "warn": 1
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "calendar",
+    "lines": [
+     "30 € AL MESE",
+     "SOLO DI INTERESSI"
+    ]
+   }
+  ],
+  [
+   "list",
+   {
+    "items": [
+     [
+      "cross",
+      "Solo rata minima"
+     ],
+     [
+      "check",
+      "Più della rata"
+     ]
+    ],
+    "title": "NON BASTA"
+   }
+  ],
+  [
+   "bars",
+   {
+    "items": [
+     [
+      "Carta 18%",
+      18,
+      2
+     ],
+     [
+      "Prestito 8%",
+      8,
+      3
+     ],
+     [
+      "Mutuo 3%",
+      3,
+      0
+     ]
+    ],
+    "suf": "%",
+    "title": "PAGA PRIMA IL PIÙ ALTO",
+    "sub": "esempio ipotetico",
+    "max": 20
+   }
+  ],
+  [
+   "words",
+   {
+    "icon": "coin",
+    "lines": [
+     "OGNI EURO IN PIÙ",
+     "SUL DEBITO"
+    ]
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 18,
+    "suf": "%",
+    "label": "COME GUADAGNARE",
+    "sub": "estinguere un debito al 18%",
+    "icon": "chartup"
+   }
+  ],
+  [
+   "cta",
+   {
+    "title": "Quale chiudi per primo?",
+    "sub": "Salva il video e segui"
+   }
+  ]
+ ]
+}
