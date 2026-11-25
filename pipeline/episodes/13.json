@@ -1,0 +1,36 @@
+{
+ "id": 13,
+ "tag": "DIVERSIFICARE",
+ "theme": "green",
+ "sentences": [
+  "Non mettere tutte le uova nello stesso paniere.",
+  [
+   "Esempio ipotetico: metti 1.000 € su una sola azione.",
+   "Esempio ipotetico: metti mille euro su una sola azione."
+  ],
+  [
+   "Se quell'azienda va male e perde il 50%, ti restano 500 €.",
+   "Se quell'azienda va male e perde il cinquanta per cento, ti restano cinquecento euro."
+  ],
+  [
+   "Con 5 investimenti da 200 €, se uno perde il 50%, perdi solo 100 €.",
+   "Con cinque investimenti da duecento euro, se uno perde il cinquanta per cento, perdi solo cento euro."
+  ],
+  "Diversificare significa non dipendere da una sola cosa.",
+  "Vale anche per le entrate: più fonti, meno rischio.",
+  "Non elimina le perdite, le rende meno pesanti. Non è consulenza finanziaria.",
+  "In cosa diversifichi tu? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "1.000 € su una sola azione che perde il 50%: ne restano 500. In 5 parti ne perdi 100 (esempio ipotetico).",
+ "post": "1.000 € su una sola azione che perde il 50%: ne restano 500. In 5 parti ne perdi 100 (esempio ipotetico). In cosa diversifichi? Scrivilo 👇 #soldi #educazionefinanziaria #diversificare #investire #finanzapersonale #imparacontiktok",
+ "scenes": [
+  ["question", {"lines": ["TUTTE LE UOVA", "IN UN PANIERE?"]}],
+  ["split", {"l": {"icon": "wallet", "title": "INVESTI", "value": "1.000 €", "sub": "esempio ipotetico", "good": false}, "r": {"icon": "warn", "title": "SU UNA SOLA", "value": "AZIONE", "sub": "rischio alto", "good": false}, "foot": "ESEMPIO IPOTETICO"}],
+  ["bignum", {"from": 1000, "to": 500, "suf": " €", "label": "TI RESTANO", "sub": "se perde il 50%", "icon": "warn", "warn": 1}],
+  ["bars", {"items": [["Tutto su uno", 500, 2], ["Diviso in 5", 100, 3]], "suf": " €", "title": "PERDI SE UNO CROLLA", "sub": "esempio ipotetico", "max": 600}],
+  ["icons", {"items": [["briefcase", "Lavoro"], ["piggy", "Risparmi"], ["chartup", "Investimenti"]], "title": "NON UNA SOLA COSA", "sub": "più basi, più stabilità"}],
+  ["words", {"icon": "coin", "lines": ["PIÙ FONTI", "MENO RISCHIO"]}],
+  ["list", {"items": [["check", "Perdite meno pesanti"], ["cross", "Non elimina il rischio"]], "title": "DIVERSIFICARE"}],
+  ["cta", {"title": "In cosa diversifichi?", "sub": "Salva il video e segui"}]
+ ]
+}
