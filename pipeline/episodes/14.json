@@ -1,0 +1,129 @@
+{
+ "id": 14,
+ "tag": "STESSO STIPENDIO",
+ "theme": "purple",
+ "sentences": [
+  [
+   "Stesso stipendio, ma dopo cinque anni uno ha 12.000 € e l'altro zero.",
+   "Stesso stipendio, ma dopo cinque anni uno ha dodicimila euro e l'altro zero."
+  ],
+  [
+   "Esempio ipotetico: due persone guadagnano 1.800 € al mese.",
+   "Esempio ipotetico: due persone guadagnano milleottocento euro al mese."
+  ],
+  "La persona A spende tutto quello che arriva.",
+  [
+   "La persona B, appena arriva lo stipendio, mette via 200 €.",
+   "La persona B, appena arriva lo stipendio, mette via duecento euro."
+  ],
+  [
+   "200 € al mese per cinque anni fanno 12.000 €, senza contare gli interessi.",
+   "Duecento euro al mese per cinque anni fanno dodicimila euro, senza contare gli interessi."
+  ],
+  "Non è fortuna e non è uno stipendio più alto: è un sistema.",
+  "Conta meno quanto guadagni e più quanto ti resta.",
+  "Sei la persona A o la persona B? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "Stesso stipendio, 5 anni dopo: 0 € contro 12.000 € (esempio ipotetico). Sei A o B?",
+ "post": "Stesso stipendio, 5 anni dopo: 0 € contro 12.000 € (esempio ipotetico). Sei la persona A o la B? Scrivilo 👇 #soldi #risparmiare #risparmio #educazionefinanziaria #mentalitàfinanziaria #finanzapersonale",
+ "scenes": [
+  [
+   "split",
+   {
+    "l": {
+     "icon": "user",
+     "title": "PERSONA A",
+     "value": "0 €",
+     "sub": "dopo 5 anni",
+     "good": false
+    },
+    "r": {
+     "icon": "user",
+     "title": "PERSONA B",
+     "value": "12.000 €",
+     "sub": "dopo 5 anni",
+     "good": true
+    },
+    "foot": "STESSO STIPENDIO"
+   }
+  ],
+  [
+   "bignum",
+   {
+    "to": 1800,
+    "suf": " €",
+    "label": "AL MESE",
+    "sub": "per entrambi, esempio ipotetico",
+    "icon": "wallet",
+    "warn": 0
+   }
+  ],
+  [
+   "words",
+   {
+    "icon": "cart",
+    "lines": [
+     "A SPENDE",
+     "TUTTO"
+    ]
+   }
+  ],
+  [
+   "bignum",
+   {
+    "from": 0,
+    "to": 200,
+    "suf": " €",
+    "label": "B METTE DA PARTE",
+    "sub": "appena arriva lo stipendio",
+    "icon": "piggy",
+    "warn": 0
+   }
+  ],
+  [
+   "bignum",
+   {
+    "from": 0,
+    "to": 12000,
+    "suf": " €",
+    "label": "IN 5 ANNI",
+    "sub": "200 € x 60 mesi, senza interessi",
+    "icon": "chartup",
+    "warn": 0
+   }
+  ],
+  [
+   "hero",
+   {
+    "icon": "star",
+    "lines": [
+     "NON È FORTUNA",
+     "È UN SISTEMA"
+    ]
+   }
+  ],
+  [
+   "list",
+   {
+    "items": [
+     [
+      "cross",
+      "Quanto guadagni"
+     ],
+     [
+      "check",
+      "Quanto ti resta"
+     ]
+    ],
+    "title": "CONTA DI PIÙ"
+   }
+  ],
+  [
+   "cta",
+   {
+    "title": "Sei A o B?",
+    "sub": "Scrivilo e salva il video"
+   }
+  ]
+ ]
+}
