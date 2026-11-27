@@ -1,0 +1,34 @@
+{
+ "id": 15,
+ "tag": "MITO DA SFATARE",
+ "theme": "gold",
+ "sentences": [
+  "Mito: non guadagno abbastanza per risparmiare.",
+  [
+   "Esempio ipotetico: metti da parte solo 5 € al giorno.",
+   "Esempio ipotetico: metti da parte solo cinque euro al giorno."
+  ],
+  [
+   "Sono 150 € al mese.",
+   "Sono centocinquanta euro al mese."
+  ],
+  [
+   "E 1.825 € in un anno.",
+   "E milleottocentoventicinque euro in un anno."
+  ],
+  "Non serve una cifra enorme: serve la costanza.",
+  "Parti piccolo, ma parti oggi. Il resto viene dopo.",
+  "Quanto riesci a mettere da parte tu ogni giorno? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "Mito: non guadagno abbastanza per risparmiare. 5 € al giorno = 1.825 € in un anno (esempio ipotetico).",
+ "post": "Mito: \"non guadagno abbastanza per risparmiare\". 5 € al giorno = 1.825 € in un anno (esempio ipotetico). Quanto metti da parte tu? Scrivilo 👇 #soldi #educazionefinanziaria #risparmiare #mitifinanziari #mentalità #imparacontiktok",
+ "scenes": [
+  ["question", {"lines": ["MITO: GUADAGNO", "TROPPO POCO?"]}],
+  ["bignum", {"from": 0, "to": 5, "suf": " €", "label": "AL GIORNO", "sub": "da parte, esempio ipotetico", "icon": "coin", "warn": 0}],
+  ["split", {"l": {"icon": "coin", "title": "AL GIORNO", "value": "5 €", "sub": "ogni giorno", "good": false}, "r": {"icon": "piggy", "title": "AL MESE", "value": "150 €", "sub": "5 € x 30 giorni", "good": true}, "foot": "ESEMPIO IPOTETICO"}],
+  ["bignum", {"from": 0, "to": 1825, "suf": " €", "label": "IN UN ANNO", "sub": "5 € x 365 giorni", "icon": "chartup", "warn": 0}],
+  ["list", {"items": [["check", "Costanza ogni giorno"], ["cross", "Una cifra enorme"]], "title": "COSA SERVE"}],
+  ["hero", {"icon": "clock", "lines": ["PARTI PICCOLO", "PARTI OGGI"]}],
+  ["cta", {"title": "Quanto metti da parte?", "sub": "Scrivilo e salva il video"}]
+ ]
+}
