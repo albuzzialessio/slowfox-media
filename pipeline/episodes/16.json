@@ -1,0 +1,42 @@
+{
+ "id": 16,
+ "tag": "SCEGLI TU",
+ "theme": "blue",
+ "sentences": [
+  [
+   "Un milione oggi o 1 centesimo che raddoppia ogni giorno per 30 giorni?",
+   "Preferisci un milione di euro oggi, o un centesimo che raddoppia ogni giorno per trenta giorni?"
+  ],
+  [
+   "Giorno 1: 1 centesimo.",
+   "Giorno uno: un centesimo."
+  ],
+  [
+   "Giorno 10: 5,12 €.",
+   "Giorno dieci: cinque euro e dodici centesimi."
+  ],
+  [
+   "Giorno 20: oltre 5.000 €.",
+   "Giorno venti: oltre cinquemila euro."
+  ],
+  [
+   "Giorno 30: oltre 5 milioni di €.",
+   "Giorno trenta: più di cinque milioni di euro."
+  ],
+  "È la crescita esponenziale: all'inizio sembra nulla, poi esplode. Esempio teorico.",
+  "Il tempo lavora per chi parte presto.",
+  "Tu cosa avresti scelto? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "Un milione oggi o 1 centesimo raddoppiato per 30 giorni? Al giorno 30 sono oltre 5 milioni (esempio teorico).",
+ "post": "Un milione oggi o 1 centesimo che raddoppia ogni giorno per 30 giorni? Al giorno 30 sono oltre 5 milioni (esempio teorico, non un investimento reale). Tu cosa scegli? 👇 #soldi #educazionefinanziaria #interessecomposto #mentalità #imparacontiktok",
+ "scenes": [
+  ["question", {"lines": ["1 MILIONE OGGI", "O 1 CENTESIMO x2?"]}],
+  ["bignum", {"txt": "0,01 €", "label": "GIORNO 1", "sub": "un solo centesimo", "icon": "coin", "size": 230}],
+  ["bignum", {"txt": "5,12 €", "label": "GIORNO 10", "sub": "raddoppia ogni giorno", "icon": "coin", "size": 230}],
+  ["bignum", {"from": 0, "to": 5243, "suf": " €", "label": "GIORNO 20", "sub": "oltre cinquemila euro", "icon": "chartup", "warn": 0}],
+  ["bignum", {"txt": "5,3 MLN", "label": "GIORNO 30", "sub": "oltre 5 milioni di euro", "icon": "star", "size": 230}],
+  ["list", {"items": [["check", "Parte lento"], ["check", "Poi esplode"], ["cross", "Non è un investimento reale"]], "title": "CRESCITA ESPONENZIALE"}],
+  ["hero", {"icon": "clock", "lines": ["IL TEMPO LAVORA", "PER CHI PARTE PRESTO"]}],
+  ["cta", {"title": "Tu cosa scegli?", "sub": "Scrivilo e salva il video"}]
+ ]
+}
