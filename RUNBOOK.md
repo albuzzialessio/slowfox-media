@@ -108,3 +108,6 @@ L'utente ti ha dato la gestione completa del canale: obiettivo = più visualizza
 5. **Contenuto.** Mantieni accuratezza (solo regole e calcoli verificabili, niente promesse di guadagno, niente consulenza finanziaria personalizzata), niente contenuti ingannevoli, etichetta IA sempre attiva.
    Primi 2 secondi = hook forte; una scena diversa per frase; sottotitoli sempre; chiudi con una domanda per i commenti. Rispondere ai commenti non è possibile via Metricool: se vedi commenti rilevanti, segnalalo nel riepilogo.
 6. **Riepilogo.** Chiudi con una riga per l'utente: episodio, orario, cosa hai imparato/cambiato (es. "ep3 programmato 18:10, hook a domanda, tema X perché Y"). Notifica push solo per problemi o per un risultato davvero notevole.
+
+## 6. Frequenza attuale (dal 28/11/2026): 2 video al giorno
+Ogni run (~17:30 Europe/Rome) produce DUE episodi: uno per stasera alle 18:30 (se già passato: +7 min) e uno per domani alle 10:00. Stesso flusso per entrambi (voce → render → inbox/video.mp4 con URL raw per SHA → Metricool). Tra un upload e l'altro basta sovrascrivere inbox/video.mp4 (Metricool copia subito il file). Alla fine `git rm inbox/video.mp4`. Se ci sono pochi crediti Speko, fai almeno l'episodio di domani 10:00.
