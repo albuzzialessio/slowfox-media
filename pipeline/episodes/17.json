@@ -1,0 +1,45 @@
+{
+ "id": 17,
+ "tag": "PARTI PRIMA",
+ "theme": "gold",
+ "sentences": [
+  [
+   "Aspettare 10 anni può costarti oltre 69.000 €.",
+   "Aspettare dieci anni può costarti oltre sessantanovemila euro."
+  ],
+  [
+   "Esempio ipotetico: 100 € al mese, 5% annuo.",
+   "Esempio ipotetico: cento euro al mese, con un rendimento del cinque per cento annuo."
+  ],
+  [
+   "Inizi a 25 anni: a 65 hai circa 152.000 €.",
+   "Inizi a venticinque anni: a sessantacinque ne hai circa centocinquantaduemila."
+  ],
+  [
+   "Inizi a 35 anni: a 65 hai circa 83.000 €.",
+   "Inizi a trentacinque anni: a sessantacinque ne hai circa ottantatremila."
+  ],
+  [
+   "Differenza: circa 69.000 €.",
+   "La differenza è di circa sessantanovemila euro."
+  ],
+  [
+   "Hai versato solo 12.000 € in più: il resto lo fa il tempo.",
+   "Hai versato solo dodicimila euro in più: il resto lo fa il tempo."
+  ],
+  "Non è consulenza finanziaria e i rendimenti non sono garantiti. Ma il momento migliore per iniziare è oggi.",
+  "A che età hai iniziato tu? Scrivilo nei commenti e salva il video."
+ ],
+ "caption": "Aspettare 10 anni può costare oltre 69.000 € (esempio ipotetico: 100 € al mese, 5% annuo, non è consulenza finanziaria).",
+ "post": "Aspettare 10 anni può costarti oltre 69.000 € (esempio ipotetico: 100 € al mese, 5% annuo, non è consulenza finanziaria). A che età hai iniziato tu? 👇 #soldi #educazionefinanziaria #risparmiare #interessecomposto #mentalitàfinanziaria #imparacontiktok",
+ "scenes": [
+  ["bignum", {"txt": "-69.000 €", "label": "IL COSTO DI ASPETTARE", "sub": "10 anni di ritardo", "icon": "warn", "warn": 1, "size": 230}],
+  ["split", {"l": {"icon": "coin", "title": "VERSAMENTO", "value": "100 €", "sub": "al mese", "good": false}, "r": {"icon": "chartup", "title": "RENDIMENTO", "value": "5%", "sub": "annuo, ipotetico", "good": true}, "foot": "ESEMPIO IPOTETICO"}],
+  ["bignum", {"from": 0, "to": 152000, "suf": " €", "label": "INIZI A 25 ANNI", "sub": "a 65 anni, circa", "icon": "chartup", "warn": 0}],
+  ["bignum", {"from": 0, "to": 83000, "suf": " €", "label": "INIZI A 35 ANNI", "sub": "a 65 anni, circa", "icon": "clock", "warn": 0}],
+  ["bars", {"items": [["Da 25 anni", 152, 3], ["Da 35 anni", 83, 2]], "suf": "k €", "title": "A 65 ANNI", "sub": "stessi 100 € al mese"}],
+  ["split", {"l": {"icon": "wallet", "title": "VERSATI IN PIÙ", "value": "12.000 €", "sub": "10 anni x 1.200 €", "good": false}, "r": {"icon": "star", "title": "RISULTATO IN PIÙ", "value": "69.000 €", "sub": "lo fa il tempo", "good": true}, "foot": "ESEMPIO IPOTETICO"}],
+  ["hero", {"icon": "calendar", "lines": ["INIZIA OGGI", "NON È CONSULENZA"]}],
+  ["cta", {"title": "A che età hai iniziato?", "sub": "Scrivilo e salva il video"}]
+ ]
+}
